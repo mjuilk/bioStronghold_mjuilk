@@ -5,6 +5,7 @@ def fin(file):
             nr = line.split()
             nr = list(map(int, nr))
             return nr
+        f.close()
     except:
         print('No such file exists')
 
