@@ -5,7 +5,7 @@ def fin(file):
             return f
     except Exception as e:
         print('No such file \n', e)
-        
+
 def dicCreate(f):
     fasta = {}
     counter = 0
@@ -23,7 +23,8 @@ def graphCreate(dic, k):
     except TypeError:
         print("k must be an integer")
     fullGraph = []
-    
+    return "Finish your script bitch"
+
 
 def main():
     pin = fin("sample.txt")
